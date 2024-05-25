@@ -1,0 +1,63 @@
+html {
+  font-size: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: #03AED2 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button:not(.carousel-control-next):not(.carousel-control-prev) {
+  padding: 0.5rem 1.5rem;
+  background: #FDDE55;
+  border: none;
+  border-radius: 0.5rem !important;
+  color: #0093b2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+  transition: 0.1s;
+}
+
+button:hover:not(.carousel-control-next):not(.carousel-control-prev) {
+  background: #FFFFFF;
+}
+
+header {
+  min-height: 5rem;
+  background: linear-gradient(180deg, rgba(1, 174, 210, 1) 0%, rgba(1, 174, 210, 1) 95%, rgba(1, 174, 209, 0) 100%);
+}
+
+.header__logo {
+  color: #FDDE55;
+}
+
+.navbar-toggler {
+  top: 0;
+  right: 0;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.s1-text {
+  font-size: 3rem;
+}
+
+.s2 img, .s3 img, .about-us-slider {
+  box-shadow: 0 4px 8px 1px rgb(0 132 160 / 35%);
+}
+
+.pacifico {
+  font-family: 'Pacifico', 'Inter', sans-serif;
+}
+
+.px-3\.5 {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}

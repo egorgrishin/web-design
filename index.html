@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="position-fixed fixed-top">
+    <nav class="container navbar">
+      <div class="container-fluid position-relative d-flex align-items-center justify-content-center">
+        <a class="header__logo pacifico fs-1" href="#">Helico</a>
+        <button class="navbar-toggler position-absolute" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pb-3">
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#s2">Наш парк</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#s3">Маршруты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#s4">Отличный подарок</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#s5">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center fs-5 py-1" href="#s6">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+  <section class="s1 py-5 pacifico">
+    <span class="container d-block s1-text mb-5 mx-auto text-center text-white">
+      Полеты над городом на вертолете
+    </span>
+
+    <div class="container d-flex flex-wrap-reverse align-items-center justify-content-center gap-3">
+      <button class="fs-3">Записаться</button>
+      <img src="./assets/heli.svg" alt="" />
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center overflow-x-hidden mt-5">
+      <img src="./assets/clouds.svg" alt="" />
+    </div>
+  </section>
+
+  <section id="s2" class="s2 container py-4">
+    <span class="fs-1 d-block pacifico text-center text-white mb-3">Наш парк</span>
+    
+    <div class="w-100 d-flex flex-wrap">
+      <div class="col-md-6 col-12 px-3.5 mb-4">
+        <img class="w-100 rounded-4" src="./assets/bell.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block">Bell 407</span>
+      </div>
+
+      <div class="col-md-6 col-12 px-3.5 mb-4">
+        <img class="w-100 rounded-4" src="./assets/robinson.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block">Robinson</span>
+      </div>
+
+      <div class="col-md-6 col-12 px-3.5 mb-4">
+        <img class="w-100 rounded-4" src="./assets/airbus.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block">Airbus H130</span>
+      </div>
+
+      <div class="col-md-6 col-12 px-3.5 mb-4">
+        <img class="w-100 rounded-4" src="./assets/agusta.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block">Agusta AW119</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="s3" class="s3 container py-4">
+    <span class="fs-1 d-block pacifico text-center text-white mb-3">Маршруты</span>
+
+    <div class="w-100 d-flex flex-wrap justify-content-center">
+      <div class="col-12 col-xxl-4 col-lg-6 px-3.5 mb-4 d-flex flex-column align-items-center">
+        <img class="w-100 rounded-4 mb-1" src="./assets/moscow.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block mb-1">Москва</span>
+        <button class="fs-4 fw-semibold">100 000р</button>
+      </div>
+
+      <div class="col-12 col-xxl-4 col-lg-6 px-3.5 mb-4 d-flex flex-column align-items-center">
+        <img class="w-100 rounded-4 mb-1" src="./assets/spb.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block mb-1">Санкт-Петербург</span>
+        <button class="fs-4 fw-semibold">75 000р</button>
+      </div>
+
+      <div class="col-12 col-xxl-4 col-lg-6 px-3.5 mb-4 d-flex flex-column align-items-center">
+        <img class="w-100 rounded-4 mb-1" src="./assets/sochi.png" alt="" />
+        <span class="fs-4 text-white fw-semibold text-center d-block mb-1">Сочи</span>
+        <button class="fs-4 fw-semibold">50 000р</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="s4" class="s4 container py-4">
+    <span class="fs-1 d-block pacifico text-center text-white mb-3">Отличный подарок</span>
+
+    <span class="fs-4 text-white fw-normal text-center d-block mb-1">Полет над любимым городом - лучший подарок близкому человеку. Незабываемые эмоции обеспечены</span>
+    <button class="fs-3 fw-semibold pacifico d-block mx-auto mt-2">Заказать</button>
+  </section>
+
+  <section id="s5" class="s5 container py-4">
+    <span class="fs-1 d-block pacifico text-center text-white mb-3">О нас</span>
+
+    <span class="fs-4 text-white fw-normal text-center d-block mb-3">Добро пожаловать в вертодром Helico!
+Мы - компания, специализирующаяся на предоставлении высококачественных вертолетных услуг для наших клиентов. Наш вертодром предлагает широкий спектр услуг, включая частные и корпоративные перелеты, туристические экскурсии, а также аэротакси.</span>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-4 about-us-slider">
+        <div class="carousel-item active">
+          <img src="./assets/111.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/222.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/333.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="s6" class="s6 container py-4">
+    <span class="fs-1 d-block pacifico text-center text-white mb-4">Контакты</span>
+
+    <div class="fs-4 text-white fw-normal text-center d-block mb-1 d-flex flex-column">
+      <span>+7 (945) 200-40-50</span>
+      <span>info@helico.ru</span>
+      <span>г. Москва, ул. Ленина, д. 1</span>
+      <span>9:00 - 21:00</span>
+    </div>
+  </section>
+</main>
+
+<script src="./js/bootstrap.js"></script>
+</body>
+</html>
