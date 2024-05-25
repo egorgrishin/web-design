@@ -12,6 +12,9 @@ body {
 a {
   text-decoration: none !important;
 }
+.rotate{
+  transform: rotate(-3deg);
+}
 
 button:not(.carousel-control-next):not(.carousel-control-prev) {
   padding: 0.5rem 1.5rem;
